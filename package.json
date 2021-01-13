@@ -1,0 +1,30 @@
+{
+  "name": "moncoachsportifparis15",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "postbuild": "next-on-netlify"
+  },
+  "dependencies": {
+    "next": "10.0.1",
+    "next-on-netlify": "^2.6.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom/extend-expect"
+    ]
+  }
+}
